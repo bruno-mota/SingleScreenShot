@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="2500dp"
+    tools:context="com.example.android.chinatown.MainActivity"
+    android:orientation="vertical"
+
+
+    >
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+
+        android:layout_height="400dp"
+        android:cropToPadding="false"
+
+        android:scaleType="centerCrop"
+        android:src="@drawable/storefront" />
+
+    <TextView
+
+        android:id="@+id/description"
+        android:textSize="17sp"
+        android:background="#BBDEFB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A local non fast food chinese restaurant with great food!"
+        android:padding="8dp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BBDEFB"
+        android:textSize="17sp"
+        android:text="Address: 999 Fake Street, City Name, State, 01494"
+        android:paddingLeft="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BBDEFB"
+        android:textSize="17sp"
+        android:text="Hours: 12:00 AM - 11:59 PM"
+        android:padding="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BBDEFB"
+        android:textSize="17sp"
+        android:text="Phone: 909-909-9090"
+        android:paddingLeft="8dp"/>
+"
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BBDEFB"
+        android:textSize="17sp"
+        android:text="Specials:"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BBDEFB"
+        android:textSize="17sp"
+        android:text="-Dragon Meets Phoenix"
+        android:paddingLeft="16dp"
+        android:paddingBottom="2dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BBDEFB"
+        android:textSize="17sp"
+        android:text="-Seafood Delight"
+        android:paddingLeft="16dp"
+        android:paddingBottom="2dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BBDEFB"
+        android:textSize="17sp"
+        android:text="-Chinatown Bbq Jumbo Shrimps"
+        android:paddingLeft="16dp"
+        android:paddingBottom="2dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BBDEFB"
+        android:textSize="17sp"
+        android:text="-House Special Trio Delight"
+        android:paddingLeft="16dp"
+        android:paddingBottom="2dp"
+        />
+
+
+
+
+    </TableLayout>
+
+</ScrollView>
